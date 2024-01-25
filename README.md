@@ -5,6 +5,8 @@ This repository is graduation project of
   - Mete Harun Akçay [![](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harunakcay/)
   - Emirhan Delican [![](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emirhan-delican-ab801a228/)
 
+This project aims to create a tool that takes an email as input and converts that email into phishing email using OpenAI's LLMs.
+More details can be found inside [```report.pdf```](https://github.com/atahf/SmartPhish/blob/main/report.pdf)
 
 ## Usage
 - After downloading the source code an additional ```.env``` file is needed.
