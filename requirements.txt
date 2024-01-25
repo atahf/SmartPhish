@@ -1,0 +1,13 @@
+beautifulsoup4==4.12.3
+colorthief==0.2.1
+easyocr==1.7.1
+feedparser==6.0.10
+icrawler==0.6.7
+lxml==4.9.2
+numpy==1.23.3
+openai==1.10.0
+opencv_python_headless==4.8.1.78
+Pillow==10.2.0
+python-dotenv==1.0.1
+python_magic==0.4.27
+requests==2.28.1
