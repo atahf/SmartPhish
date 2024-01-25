@@ -14,10 +14,20 @@ This repository is graduation project of
   EMAIL_ADDRESS={YOUR_EMAIL_ADDRESS}
   EMAIL_APP_PASSWORD={YOUR_EMAIL_APP_PASSWORD}
   ```
+  - [this support](https://support.google.com/mail/answer/185833?hl=en) page can be used as guide to obtain "EMAIL_APP_PASSWORD" for your gmail.
 - First things first, download all the needed dependencies from ```requirements.txt```
   ```
   pip install -r requirements.txt
   ```
+- For generating phishing HTML from input run following
+  ```
+  python main.py generate [input_HTML_filepath] [output_HTML_filepath]
+  ```
+- The pipeline integrated with email is also avaiable. run with following
+  ```
+  python main.py pipeline
+  ```
+  - As soon as an email is received into inbox of email, it will be catched by pipeline; however, this process can be simulated by making any of emails inside inbox as unread or unseen.
 - For the News-Based tool run following
   ```
   python main.py news-based (static|dynamic) [language]
